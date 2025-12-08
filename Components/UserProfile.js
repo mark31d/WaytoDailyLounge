@@ -152,11 +152,12 @@ export default function UserProfile() {
               style={styles.modalOption}
               onPress={() => {
                 setProfileImage(null);
-                saveProfile(null, userName);
+                setUserName('');
+                saveProfile(null, '');
                 setShowImagePicker(false);
               }}
             >
-              <Text style={styles.modalOptionText}>Remove Photo</Text>
+              <Text style={styles.modalOptionText}>Clear Profile</Text>
             </Pressable>
             <Pressable
               style={[styles.modalOption, styles.modalCancel]}

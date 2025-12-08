@@ -347,7 +347,7 @@ export default function MyNightScreen({ navigation }) {
                     <Image
                       source={item.image}
                       style={styles.entImage}
-                      resizeMode="contain"
+                      resizeMode="cover"
                     />
                     <View style={styles.entOverlay}>
                       <View style={styles.entHeaderRow}>
@@ -704,7 +704,8 @@ const styles = StyleSheet.create({
   },
   entImage: {
     width: '100%',
-    height: 120,
+    height: 180,
+    alignSelf: 'stretch',
   },
   entOverlay: {
     paddingHorizontal: 12,

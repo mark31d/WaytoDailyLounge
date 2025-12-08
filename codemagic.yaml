@@ -9,7 +9,7 @@ workflows:
         distribution_type: app_store
         bundle_identifier: com.WaytoDailyLounge
       vars:
-        APP_STORE_APPLE_ID: 6755366222
+        APP_STORE_APPLE_ID: 6756269962
         XCODE_WORKSPACE: WaytoDailyLounge.xcworkspace
         CODE_SCHEME: WaytoDailyLounge
     scripts:

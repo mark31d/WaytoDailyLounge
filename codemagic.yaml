@@ -3,11 +3,11 @@ workflows:
     name: Wayto:Daily Lounge
     max_build_duration: 120
     integrations:
-      app_store_connect: WaytoDailyLoungeAPIKey
+      app_store_connect: WaytoDailyLoungeeAPIKey
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.WaytoDailyLounge
+        bundle_identifier: com.WaytoDailyLoungee
       vars:
         APP_STORE_APPLE_ID: 6756269962
         XCODE_WORKSPACE: WaytoDailyLounge.xcworkspace
